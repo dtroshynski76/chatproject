@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js" integrity="sha256-WPeFPWD3PZQUDrpFnDM1N2KadNVwCfNS4cCZ78b76T8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="chat.css">
+    <script type="text/javascript" src="chat.js"></script>
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a class="button" href="index.html">Home</a>
+      <a class="button" href="delete.html">Delete Account</a>
+      <a class="button" href="index.html">Logout</a>
+    </div>
+    <div class="main">
+        <ul id="messages"></ul>
+    </div>
+    <form action="">
+      <input id="m" autocomplete="off" autofocus="autofocus" maxlength="165"/><button>Send</button>
+    </form>
+    <p style="color:white; text-indent: -9999px;">Hello.</p>
+  </body>
+</html>

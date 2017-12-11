@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Chat</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+      <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <h1 style="text-align: center">Welcome to the Online Chat application!</h1>
+
+    <h4>Log In</h4>
+    <form action="/signin" method="GET">
+      <div class="row">
+        <div class="six columns">
+          <label for="userName"><b>Username</b></label>
+          <input class="u-full-width" type="text" placeholder="Enter Username" id="userName" name="userName" required autofocus>
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <label for="password"><b>Password</b></label>
+          <input class="u-full-width" type="password" placeholder="Enter Password" id="password" name="password" required>
+        </div>
+      </div>
+      <input class="button-primary" type="submit" value="Log In">
+    </form>
+
+    <hr>
+
+    <h4>Sign Up</h4>
+    <form action="/signup" method="GET">
+      <div class="row">
+        <div class="six columns">
+          <label for="userNameSignUp"><b>Username</b></label>
+          <input class="u-full-width" type="text" placeholder="Enter Username" id="userNameSignUp" name="userName" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="six columns">
+          <label for="passwordSignUp"><b>Password</b></label>
+          <input class="u-full-width" type="password" placeholder="Enter Password" id="passwordSignUp" name="password" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <label for="confirm"><b>Confirm Password</b></label>
+          <input class="u-full-width" type="password" placeholder="Enter Password" id="confirm" name="confirm" required>
+        </div>
+      </div>
+      <input class="button-primary" type="submit" value="Sign Up">
+    </form>
+  </body>
+  <footer>
+    <div class="section get-help">
+      <div class="container">
+        <h4 class="section-heading">Created By</h4>
+        <p class="section-description">Donovan Troshynski</p>
+        <a class="button button-primary" href="mailto:dtroshynski@unomaha.com">Contact</a>
+      </div>
+    </div>
+  </footer>
+</html>
